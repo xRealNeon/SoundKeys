@@ -14,7 +14,7 @@ Includes a mini-player with minimal controls as well.
 
 ## Global shortcuts
 
-| Keys                           | Actions          |
+| Key                            | Action           |
 |:------------------------------:|:----------------:|
 | `MediaNextTrack`               | Next Track       |
 | `MediaPreviousTrack`           | Previous Track   |
