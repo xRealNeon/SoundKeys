@@ -21,9 +21,6 @@ Global shortcuts :
 | `MediaNextTrack`               | Next Track       |
 | `MediaPreviousTrack`           | Previous Track   |
 | `MediaPlayPause`               | Play/Pause Track |
-| `Ctrl+3`                       | Like Toggle      |
-| `Ctrl+4`                       | Repeat Toggle    |
-| `Ctrl+5`                       | Shuffle Toggle   |
 
 ## Notifications 
 
