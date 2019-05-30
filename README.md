@@ -12,9 +12,7 @@ Includes a mini-player with minimal controls as well.
 
 <img src='./ReadmeImages/miniPlayer.PNG'/>
 
-Default shortcuts included are:
-
-Global shortcuts :
+## Global shortcuts :
 
 | Keys                           | Actions          |
 |:------------------------------:|:----------------:|
@@ -31,12 +29,12 @@ Get notified about your actions when the window is not visible. 💯
 ![Alt text](/ReadmeImages/repeatClicked.PNG)
 
 
-### Install
+## Install
 
 Download from [here](https://github.com/xRealNeon/SoundKeys/releases). 💎 
 
 
-### Build  
+## Build  
 
 Building is a piece of cake as the app uses Electron. 🍰  
 Follow these instructions to setup the app.  
@@ -50,7 +48,7 @@ You might want to consider installing Electron globally as it's huge. (~140 MB)
 Feel free to create an ISSUE or shoot me an email for any help. ✌️  
 The app hasn't been tested on Linux or OSX. Please provide feedback if you did.
 
-### RoadMap
+## RoadMap
 
 Check the [Projects tab](https://github.com/xRealNeon/SoundKeys/projects) for the roadmap. 😸
 
