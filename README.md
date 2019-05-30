@@ -16,9 +16,9 @@ Includes a mini-player with minimal controls as well.
 
 | Key                            | Action           |
 |:------------------------------:|:----------------:|
-| `MediaNextTrack`               | Next Track       |
-| `MediaPreviousTrack`           | Previous Track   |
-| `MediaPlayPause`               | Play/Pause Track |
+| <kbd>MediaNextTrack</kbd>      | Next Track       |
+| <kbd>MediaPreviousTrack</kbd>  | Previous Track   |
+| <kbd>MediaPlayPause</kbd>      | Play/Pause Track |
 
 ## Notifications 
 
