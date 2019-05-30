@@ -12,7 +12,7 @@ Includes a mini-player with minimal controls as well.
 
 <img src='./ReadmeImages/miniPlayer.PNG'/>
 
-## Global shortcuts :
+## Global shortcuts
 
 | Keys                           | Actions          |
 |:------------------------------:|:----------------:|
