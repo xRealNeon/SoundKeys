@@ -10,7 +10,7 @@
   },
   "productName": "Soundkeys",
   "icon": "./icon.ico",
-  "author": "MSandeep96",
+  "author": "NeoCode",
   "license": "MIT",
   "dependencies": {
     "electron-positioner": "^3.0.0"
@@ -21,12 +21,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MSandeep96/SoundKeys.git"
+    "url": "git+https://github.com/xRealNeon/SoundKeys.git"
   },
-  "bugs": {
-    "url": "https://github.com/MSandeep96/SoundKeys/issues"
-  },
-  "homepage": "https://github.com/MSandeep96/SoundKeys#readme",
   "build": {
     "appId": "neocode.soundkeys",
     "productName": "SoundKeys",
