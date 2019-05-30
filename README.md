@@ -14,6 +14,8 @@ Includes a mini-player with minimal controls as well.
 
 ## Global shortcuts
 
+All shortcuts can be found [here](https://github.com/xRealNeon/SoundKeys/wiki/Hotkeys).
+
 | Key                            | Action            |
 |:------------------------------:|:-----------------:|
 | <kbd>MediaNextTrack</kbd>      | Next Track        |
