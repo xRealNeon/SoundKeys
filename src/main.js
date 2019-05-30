@@ -1,18 +1,14 @@
-const electron = require("electron");
 const {
 	app,
 	BrowserWindow,
-	Tray
-} = require("electron");
-const path = require("path");
-const url = require("url");
-const {
+	Tray,
 	ipcMain,
 	globalShortcut,
 	Menu
 } = require("electron");
+const path = require("path");
+const url = require("url");
 const IPC_EVENT = require("./utils/IPC_EVENT");
-const utils = require("./utils/utils");
 
 let mainWindow;
 let trayButton;
@@ -66,6 +62,13 @@ function createWindow() {
 	mainWindow.webContents.on("new-window", function (event, url, frameName, disposition, windowOptions) {
 		windowOptions["node-integration"] = false;
 	});
+
+	mainWindow.on('closed', function () {
+		mainWindow = null;
+		setTimeout(() => {
+			process.exit(0);
+		}, 2000);
+	});
 }
 
 function createMiniPlayerWindow(bounds) {
@@ -96,10 +99,7 @@ function registerShorts() {
 	const mappings = {
 		"MediaNextTrack": "nextClicked",
 		"MediaPreviousTrack": "prevClicked",
-		"MediaPlayPause": "playClicked",
-		"CommandOrControl+3": "likeClicked",
-		"CommandOrControl+4": "repeatClicked",
-		"CommandOrControl+5": "shuffleClicked"
+		"MediaPlayPause": "playClicked"
 	};
 
 	for (let key in mappings) {
@@ -112,11 +112,19 @@ function registerShorts() {
 	}
 
 	globalShortcut.register("MediaStop", () => {
-		//quit the app?
-		if (inMiniPlayerMode)
-			miniPlayerWindow.close();
-		else
-			mainWindow.close();
+		//Toggle mini player 
+		if (inMiniPlayerMode) {
+			inMiniPlayerMode = false;
+			miniPlayerWindow.hide();
+			mainWindow.setSkipTaskbar(false);
+			mainWindow.show();
+		} else {
+			inMiniPlayerMode = true;
+			mainWindow.setSkipTaskbar(true);
+			mainWindow.hide();
+			miniPlayerWindow.show();
+		}
+
 	});
 
 }
@@ -201,6 +209,4 @@ ipcMain.on(IPC_EVENT.MINI_PLAYER_EVENTS, (event, args) => {
 	mainWindow.webContents.send(IPC_EVENT.CONTROL_EVENT_OCCURED, args);
 });
 
-ipcMain.on("notify", (event, arg) => {
-
-});
+ipcMain.on("notify", (event, arg) => {});
