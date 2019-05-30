@@ -14,11 +14,12 @@ Includes a mini-player with minimal controls as well.
 
 ## Global shortcuts
 
-| Key                            | Action           |
-|:------------------------------:|:----------------:|
-| <kbd>MediaNextTrack</kbd>      | Next Track       |
-| <kbd>MediaPreviousTrack</kbd>  | Previous Track   |
-| <kbd>MediaPlayPause</kbd>      | Play/Pause Track |
+| Key                            | Action            |
+|:------------------------------:|:-----------------:|
+| <kbd>MediaNextTrack</kbd>      | Next Track        |
+| <kbd>MediaPreviousTrack</kbd>  | Previous Track    |
+| <kbd>MediaPlayPause</kbd>      | Play/Pause Track  |
+| <kbd>MediaStop</kbd>           | Toggle mini player|
 
 ## Notifications 
 
