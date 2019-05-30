@@ -38,7 +38,8 @@ Download from [here](https://github.com/xRealNeon/SoundKeys/releases). 💎
 ## Build  
 
 Building is a piece of cake as the app uses Electron. 🍰  
-Paste this in your command line and you're done!  
+1. Install [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en/download/).
+2. Paste this in your command line and you're done!  
 
 ```
 git clone https://github.com/xRealNeon/SoundKeys.git && cd SoundKeys && npm i && npm start
