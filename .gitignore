@@ -1,8 +1,4 @@
-/.vscode/launch.json
-/snippets.txt
-/node_modules
-/soundkeys-win32-x64
-/SoundKeys
-/SoundKeys.zip
-/build
-/.idea
+node_modules/
+dist/
+package-lock.json
+yarn.lock

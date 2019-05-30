@@ -1,8 +1,16 @@
 const electron = require("electron");
-const { app, BrowserWindow, Tray } = require("electron");
+const {
+	app,
+	BrowserWindow,
+	Tray
+} = require("electron");
 const path = require("path");
 const url = require("url");
-const { ipcMain, globalShortcut, Menu } = require("electron");
+const {
+	ipcMain,
+	globalShortcut,
+	Menu
+} = require("electron");
 const IPC_EVENT = require("./utils/IPC_EVENT");
 const utils = require("./utils/utils");
 
@@ -80,7 +88,7 @@ function createMiniPlayerWindow(bounds) {
 	});
 
 	miniPlayerWindow.loadURL(htmlUrl);
-	miniPlayerWindow.openDevTools();
+	//miniPlayerWindow.openDevTools();
 }
 
 function registerShorts() {
@@ -163,9 +171,10 @@ function positionWin() {
 }
 
 function setUpTray() {
-	const contextMenu = Menu.buildFromTemplate([
-		{ label: "Quit", role: "quit" }
-	]);
+	const contextMenu = Menu.buildFromTemplate([{
+		label: "Quit",
+		role: "quit"
+	}]);
 	trayButton = new Tray(iconPath);
 	trayButton.setToolTip("Shows the mini-player");
 	trayButton.setContextMenu(contextMenu);
@@ -188,8 +197,8 @@ function setUpTray() {
 	return trayButton.getBounds();
 }
 
-ipcMain.on(IPC_EVENT.MINI_PLAYER_EVENTS, (event,args) => {
-	mainWindow.webContents.send(IPC_EVENT.CONTROL_EVENT_OCCURED,args);
+ipcMain.on(IPC_EVENT.MINI_PLAYER_EVENTS, (event, args) => {
+	mainWindow.webContents.send(IPC_EVENT.CONTROL_EVENT_OCCURED, args);
 });
 
 ipcMain.on("notify", (event, arg) => {

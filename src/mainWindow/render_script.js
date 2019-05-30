@@ -1,4 +1,6 @@
-const { ipcRenderer } = require("electron");
+const {
+	ipcRenderer
+} = require("electron");
 const IPC_EVENT = require("../utils/IPC_EVENT");
 const WEB_VIEW_EVENT = require("./WEB_VIEW_EVENT");
 
@@ -10,7 +12,7 @@ ipcRenderer.on(IPC_EVENT.CONTROL_EVENT_OCCURED, (event, arg) => {
 
 wbView.addEventListener("did-finish-load", () => {
 	document.getElementById("splash-img").style.display = "none";
-	wbView.openDevTools();
+	//wbView.openDevTools();
 });
 
 wbView.addEventListener("page-title-updated", () => {

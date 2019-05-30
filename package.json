@@ -5,7 +5,8 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron src/main.js",
-    "test": "eslint ."
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "productName": "Soundkeys",
   "icon": "./icon.ico",
@@ -16,7 +17,7 @@
   },
   "devDependencies": {
     "electron": "^1.7.9",
-    "eslint": "^3.19.0"
+    "electron-builder": "^20.41.0"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/MSandeep96/SoundKeys/issues"
   },
-  "homepage": "https://github.com/MSandeep96/SoundKeys#readme"
+  "homepage": "https://github.com/MSandeep96/SoundKeys#readme",
+  "build": {
+    "appId": "neocode.soundkeys",
+    "productName": "SoundKeys",
+    "mac": {
+      "category": "neocode.soundkeys"
+    }
+  }
 }
