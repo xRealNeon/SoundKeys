@@ -36,7 +36,7 @@ Get notified about your actions when the window is not visible. 💯
 
 ### Install
 
-Download from [here](https://github.com/MSandeep96/SoundKeys/releases). 💎 
+Download from [here](https://github.com/xRealNeon/SoundKeys/releases). 💎 
 
 
 ### Build  
@@ -44,7 +44,7 @@ Download from [here](https://github.com/MSandeep96/SoundKeys/releases). 💎
 Building is a piece of cake as the app uses Electron. 🍰  
 Follow these instructions to setup the app.  
 
-	git clone https://github.com/MSandeep96/SoundKeys.git
+	git clone https://github.com/xRealNeon/SoundKeys.git
 	cd SoundKeys
 	npm install
 	npm start
@@ -55,7 +55,7 @@ The app hasn't been tested on Linux or OSX. Please provide feedback if you did.
 
 ### RoadMap
 
-Check the Projects tab for the roadmap. 😸
+Check the [Projects tab](https://github.com/xRealNeon/SoundKeys/projects) for the roadmap. 😸
 
 ##### Login issues: (Only Facebook)😿
 
