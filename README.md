@@ -56,4 +56,4 @@ Check the [Projects tab](https://github.com/xRealNeon/SoundKeys/projects) for th
 
 As Electron opens each window in a seperate process, login callbacks aren't triggered properly.  
 If the application stalls for you, reload the page and try to login again. (Sometimes twice)  
-Reload is mapped to F5.
+Reload is mapped to <kbd>F5</kbd>.
