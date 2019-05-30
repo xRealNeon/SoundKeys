@@ -46,7 +46,7 @@ git clone https://github.com/xRealNeon/SoundKeys.git && cd SoundKeys && npm i &&
 ```
 
 Feel free to create an [ISSUE](https://github.com/xRealNeon/SoundKeys/issues). ✌️  
-The app hasn't been tested on Linux or OSX. Please provide feedback if you did.
+The app hasn't been tested on Linux or OSX. Please provide [feedback](https://github.com/xRealNeon/SoundKeys/issues) if you did.
 
 ## RoadMap
 
