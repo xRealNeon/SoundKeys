@@ -44,7 +44,7 @@ git clone https://github.com/xRealNeon/SoundKeys.git && cd SoundKeys && npm i &&
 ```
 	
 You might want to consider installing Electron globally as it's huge. (~140 MB)  
-Feel free to create an ISSUE or shoot me an email for any help. ✌️  
+Feel free to create an [ISSUE](https://github.com/xRealNeon/SoundKeys/issues). ✌️  
 The app hasn't been tested on Linux or OSX. Please provide feedback if you did.
 
 ## RoadMap
