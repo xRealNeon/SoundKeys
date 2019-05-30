@@ -1,4 +1,4 @@
-# <img src='./src/icon.ico' height='37' align='center' alt='Soundkeys Logo'> SoundKeys
+# SoundKeys
 
 Soundkeys serves straight from Soundcloud. Benefit from the website's features and caching! 😼
 
