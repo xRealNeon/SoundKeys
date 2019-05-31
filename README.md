@@ -45,7 +45,7 @@ Building is a piece of cake as the app uses Electron. 🍰
 git clone https://github.com/xRealNeon/SoundKeys.git && cd SoundKeys && npm i && npm start
 ```
 
-Feel free to create an [ISSUE](https://github.com/xRealNeon/SoundKeys/issues). ✌️  
+Feel free to create an [issue](https://github.com/xRealNeon/SoundKeys/issues). ✌️  
 The app hasn't been tested on Linux or OSX. Please provide [feedback](https://github.com/xRealNeon/SoundKeys/issues) if you did.
 
 ## RoadMap
