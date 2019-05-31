@@ -50,7 +50,7 @@ The app hasn't been tested on Linux or OSX. Please provide [feedback](https://gi
 
 ## RoadMap
 
-Check the [Projects tab](https://github.com/xRealNeon/SoundKeys/projects) for the roadmap. 😸
+Check the [projects tab](https://github.com/xRealNeon/SoundKeys/projects) for the roadmap. 😸
 
 ##### Login issues: (Only Facebook)😿
 
